@@ -234,7 +234,6 @@ function toggleEndGame()
 			else
 			{
 				cell.textContent=board_info.bomb;
-				cell.style.backgroundColor = 'red';
 			}
 		}
 	}
