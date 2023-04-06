@@ -77,6 +77,12 @@ body{
     color: blue;
 }
 
+#Timer {
+    font-size: 300%;
+    font-weight: bold;
+    color: gray;
+}
+
 button {
     width: 100px;
     height: 30px;
