@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Site demo - Minesweeper</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-        <link href="/resources/twemoji-awesome/twemoji-awesome.css" rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+            crossorigin="anonymous"
+        />
+        <link
+            href="/resources/twemoji-awesome/twemoji-awesome.css"
+            rel="stylesheet"
+        />
+        <link href="/style.css" rel="stylesheet" />
         <script src="/resources/header.js" defer></script>
     </head>
     <body>
@@ -14,16 +22,17 @@
 
         <div class="site-content">
             <div id="box">
-                <button class="btn btn-primary" onclick="init()"> New game! </button>
-                <br>
+                <button class="btn btn-primary" onclick="init()">
+                    New game!
+                </button>
+                <br />
                 <div id="timer"></div>
                 <div id="flags"></div>
                 <div id="EndGame"></div>
-                <br>
-                <div id="MinesweeperBoard"> </div>
+                <br />
+                <div id="MinesweeperBoard"></div>
             </div>
         </div>
-        
 
         <script src="/resources/minesweeper.js"></script>
     </body>

@@ -1,15 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-#board-container{
+#board-container {
     display: flex;
     justify-content: center;
 }
 
-#board{
+#board {
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(10, 1fr);
     align-items: center;
     justify-content: center;
     width: fit-content;
@@ -23,7 +23,7 @@
     overflow: auto;
 }
 
-header{
+header {
     height: 100px;
     width: 100%;
     position: fixed;
@@ -32,16 +32,15 @@ header{
     background-color: lightgray;
 }
 
-
 .menus {
     text-align: center;
 }
 
-.menus div{
+.menus div {
     display: inline;
 }
 
-.menu-item{
+.menu-item {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -68,10 +67,12 @@ header{
     min-width: 36px;
     height: 36px;
     min-height: 36px;
-    border: 1px solid black;    
+    border: 1px solid black;
 }
 
-#EndGame, #flags, #timer{
+#EndGame,
+#flags,
+#timer {
     font-size: 150%;
     font-weight: bold;
     color: blue;
@@ -90,7 +91,7 @@ header{
     border: 2px solid black;
 }
 
-#BoardSudoku table td td{
+#BoardSudoku table td td {
     background-color: white;
     font-size: 150%;
     font-weight: bold;
@@ -116,7 +117,7 @@ header{
     border: 2px solid black;
 }
 
-#SudokuSolution table td td{
+#SudokuSolution table td td {
     background-color: white;
     width: 40px;
     height: 40px;
